@@ -1,12 +1,12 @@
 <div align="center">
-  <h1 align="center">UI TEST</h3>
+  <h1 align="center">lzt</h3>
   <p align="center">基于POM模型的UI自动化测试框架。  <p>
 </div>
 
 
 ## 关于项目
 
-UI TEST是基于POM模型的UI自动化测试框架。框架中每个测试用例会打开一个浏览器，并有对应的一个或多个页面。框架封装了基础页面类和基础测试用例类，并提供了页面类和测试用例类的模版。测试人员通过命令行生成页面类或测试用例类，能快速的编写测试用例进行测试。目前框架实现的功能有：
+lzt(lazy test)是基于POM模型的UI自动化测试框架。框架中每个测试用例会打开一个浏览器，并有对应的一个或多个页面。框架封装了基础页面类和基础测试用例类，并提供了页面类和测试用例类的模版。测试人员通过命令行生成页面类或测试用例类，能快速的编写测试用例进行测试。目前框架实现的功能有：
 
 
 - [x] POM模型
@@ -15,6 +15,13 @@ UI TEST是基于POM模型的UI自动化测试框架。框架中每个测试用�
 - [x] DDT 数据驱动
 - [x] 日志输出
 - [x] 浏览器代理
+- [ ] 接口测试
+- [ ] 性能测试
+- [ ] 邮箱通知
+- [ ] 邮箱内容定制
+- [ ] UI界面
+- [ ] yml、json配置解析
+- [ ] 代码自动生成
 
 ![f75d532bc1b84d2aff7fd08c4765a219.jpg](https://image.ppzxxz.xyz/images/2022/04/02/f75d532bc1b84d2aff7fd08c4765a219.jpg)
 
@@ -35,7 +42,7 @@ UI TEST是基于POM模型的UI自动化测试框架。框架中每个测试用�
 
 1. 克隆该项目
    ```sh
-   git@github.com:someu/ui-test.git
+   git clone git@github.com:someu/ui-test.git
    ```
 
 2. 安装python依赖
